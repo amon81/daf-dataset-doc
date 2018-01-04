@@ -19,8 +19,8 @@
 |------|--------|---------------------------------|
 | id | long | id del record |
 | denominazione | string | denominazione dell'azienda sanitaria |
-| paid | int | identificativo interno della PA di appartenza |
-| pa | string | denominazione della PA di appartenenza |
+| paid | int | identificativo interno della Regione di appartenza |
+| pa | string | denominazione della Regione di appartenenza |
 | indirizzo | string | |
 | cap | string | |
 | comune | string | |
@@ -31,7 +31,7 @@
 | regione | string | codice regione fornito dal fornitore dei dati delle aziende sanitarie |
 | codice_asl | string | |
 | data_istituzione | date | |
-| data_fine | date | |
+| data_fine | date | data cessazione fornita dal fornitore dei dati delle aziende sanitarie |
 | denominazione_struttura | string | |
 | codice_tipo_struttura | string | |
 | tipo | int | Tipo di azienda sanitaria: <br> 0 = ASL <br> 1 = Aziende Ospedaliere <br> 2 = Istituti di ricovero e cura a carattere scientifico <br> 3 = Fondazioni pubbliche |
